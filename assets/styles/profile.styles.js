@@ -1,0 +1,558 @@
+/*import { StyleSheet } from "react-native";
+import { COLORS } from "../../constants/colors";
+
+export const profileStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: COLORS.background,
+  },
+  scrollContent: {
+    paddingBottom: 32,
+  },
+  header: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    paddingHorizontal: 20,
+    paddingTop: 60,
+    paddingBottom: 20,
+  },
+  backButton: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: COLORS.white,
+    justifyContent: "center",
+    alignItems: "center",
+    shadowColor: COLORS.shadow,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  headerTitle: {
+    fontSize: 20,
+    fontWeight: "700",
+    color: COLORS.text,
+  },
+  headerPlaceholder: {
+    width: 40,
+  },
+  profileImageSection: {
+    alignItems: "center",
+    paddingVertical: 20,
+    paddingHorizontal: 20,
+  },
+  profileImageContainer: {
+    position: "relative",
+    marginBottom: 16,
+  },
+  profileImage: {
+    width: 120,
+    height: 120,
+    borderRadius: 60,
+    backgroundColor: COLORS.border,
+  },
+  cameraButton: {
+    position: "absolute",
+    bottom: 0,
+    right: 0,
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    backgroundColor: COLORS.primary,
+    justifyContent: "center",
+    alignItems: "center",
+    borderWidth: 3,
+    borderColor: COLORS.white,
+  },
+  userName: {
+    fontSize: 24,
+    fontWeight: "700",
+    color: COLORS.text,
+    marginBottom: 4,
+    textAlign: "center",
+  },
+  userBio: {
+    fontSize: 16,
+    color: COLORS.textLight,
+    textAlign: "center",
+    maxWidth: "80%",
+  },
+  infoSection: {
+    backgroundColor: COLORS.white,
+    marginHorizontal: 20,
+    marginBottom: 20,
+    borderRadius: 16,
+    padding: 20,
+    shadowColor: COLORS.shadow,
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 8,
+    elevation: 4,
+  },
+  sectionHeader: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginBottom: 20,
+  },
+  sectionTitle: {
+    fontSize: 18,
+    fontWeight: "700",
+    color: COLORS.text,
+  },
+  editButton: {
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    backgroundColor: COLORS.primary,
+    borderRadius: 20,
+  },
+  editButtonText: {
+    fontSize: 14,
+    fontWeight: "600",
+    color: COLORS.white,
+  },
+  infoFields: {
+    gap: 20,
+  },
+  fieldContainer: {
+    gap: 6,
+  },
+  fieldLabel: {
+    fontSize: 12,
+    fontWeight: "600",
+    color: COLORS.textLight,
+    textTransform: "uppercase",
+    letterSpacing: 0.5,
+  },
+  fieldValue: {
+    fontSize: 16,
+    fontWeight: "500",
+    color: COLORS.text,
+    paddingVertical: 8,
+  },
+  textInput: {
+    fontSize: 16,
+    fontWeight: "500",
+    color: COLORS.text,
+    backgroundColor: COLORS.background,
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: COLORS.border,
+  },
+  bioInput: {
+    height: 80,
+    textAlignVertical: "top",
+  },
+  saveButton: {
+    backgroundColor: COLORS.primary,
+    paddingVertical: 14,
+    borderRadius: 12,
+    alignItems: "center",
+    marginTop: 20,
+  },
+  saveButtonText: {
+    fontSize: 16,
+    fontWeight: "600",
+    color: COLORS.white,
+  },
+  settingsSection: {
+    backgroundColor: COLORS.white,
+    marginHorizontal: 20,
+    borderRadius: 16,
+    padding: 20,
+    shadowColor: COLORS.shadow,
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 8,
+    elevation: 4,
+  },
+  settingItem: {
+    flexDirection: "row",
+    alignItems: "center",
+    paddingVertical: 16,
+    borderBottomWidth: 1,
+    borderBottomColor: COLORS.border + "40",
+  },
+  settingText: {
+    flex: 1,
+    fontSize: 16,
+    fontWeight: "500",
+    color: COLORS.text,
+    marginLeft: 12,
+  },
+});*/
+
+import { StyleSheet } from "react-native";
+import { COLORS } from "../../constants/colors";
+
+export const profileStyles = StyleSheet.create({
+
+  container: {
+    flex: 1,
+    backgroundColor: COLORS.background,
+  },
+  scrollContent: {
+    paddingBottom: 32,
+  },
+    keyboardView: {
+    flex: 1,
+  },
+  header: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    paddingHorizontal: 20,
+    paddingTop: 30,
+    paddingBottom: 20,
+  },
+  backButton: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: COLORS.white,
+    justifyContent: "center",
+    alignItems: "center",
+    shadowColor: COLORS.shadow,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  headerTitle: {
+    fontSize: 20,
+    fontWeight: "700",
+    color: COLORS.text,
+  },
+  headerPlaceholder: {
+    width: 40,
+  },
+  profileImageSection: {
+    alignItems: "center",
+    paddingVertical: 20,
+    paddingHorizontal: 20,
+  },
+  profileImageContainer: {
+    position: "relative",
+    marginBottom: 16,
+  },
+  profileImage: {
+    width: 120,
+    height: 120,
+    borderRadius: 60,
+    backgroundColor: COLORS.border,
+  },
+  cameraButton: {
+    position: "absolute",
+    bottom: 0,
+    right: 0,
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    backgroundColor: COLORS.primary,
+    justifyContent: "center",
+    alignItems: "center",
+    borderWidth: 3,
+    borderColor: COLORS.white,
+  },
+  userName: {
+    fontSize: 24,
+    fontWeight: "700",
+    color: COLORS.text,
+    marginBottom: 4,
+    textAlign: "center",
+  },
+  userEmail: {
+    fontSize: 16,
+    color: COLORS.textLight,
+    textAlign: "center",
+  },
+  infoSection: {
+    backgroundColor: COLORS.white,
+    marginHorizontal: 20,
+    marginBottom: 20,
+    borderRadius: 16,
+    padding: 20,
+    shadowColor: COLORS.shadow,
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 8,
+    elevation: 4,
+  },
+  sectionHeader: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginBottom: 20,
+  },
+  sectionTitle: {
+    fontSize: 18,
+    fontWeight: "700",
+    color: COLORS.text,
+  },
+  editButton: {
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    backgroundColor: COLORS.primary,
+    borderRadius: 20,
+  },
+  editButtonText: {
+    fontSize: 14,
+    fontWeight: "600",
+    color: COLORS.white,
+  },
+  infoFields: {
+    gap: 20,
+  },
+  fieldContainer: {
+    gap: 6,
+  },
+  fieldLabel: {
+    fontSize: 12,
+    fontWeight: "600",
+    color: COLORS.textLight,
+    textTransform: "uppercase",
+    letterSpacing: 0.5,
+  },
+  fieldValue: {
+    fontSize: 16,
+    fontWeight: "500",
+    color: COLORS.text,
+    paddingVertical: 8,
+  },
+  textInput: {
+    fontSize: 16,
+    fontWeight: "500",
+    color: COLORS.text,
+    backgroundColor: COLORS.background,
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: COLORS.border,
+  },
+  saveButton: {
+    backgroundColor: COLORS.primary,
+    paddingVertical: 14,
+    borderRadius: 12,
+    alignItems: "center",
+    marginTop: 20,
+  },
+  saveButtonText: {
+    fontSize: 16,
+    fontWeight: "600",
+    color: COLORS.white,
+  },
+  logoutSection: {
+    backgroundColor: COLORS.white,
+    marginHorizontal: 20,
+    borderRadius: 16,
+    padding: 20,
+    shadowColor: COLORS.shadow,
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 8,
+    elevation: 4,
+  },
+  logoutButton: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    paddingVertical: 16,
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: "#FF3B30" + "40",
+    backgroundColor: "#FF3B30" + "10",
+  },
+  logoutText: {
+    fontSize: 16,
+    fontWeight: "600",
+    color: "#FF3B30",
+    marginLeft: 8,
+  },
+
+    // NEW STYLES FOR PASSWORD INPUTS
+  passwordInputContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: COLORS.background,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: COLORS.border,
+    overflow: "hidden",
+  },
+  passwordInput: {
+    flex: 1,
+    fontSize: 16,
+    fontWeight: "500",
+    color: COLORS.text,
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+  },
+  eyeButton: {
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+  },
+
+  // PASSWORD REQUIREMENTS STYLES
+  passwordRequirements: {
+    marginTop: 16,
+    padding: 16,
+    backgroundColor: COLORS.background + "80",
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: COLORS.border,
+  },
+  requirementsTitle: {
+    fontSize: 14,
+    fontWeight: "600",
+    color: COLORS.text,
+    marginBottom: 12,
+  },
+  requirementItem: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginBottom: 8,
+  },
+  requirementText: {
+    fontSize: 12,
+    color: COLORS.textLight,
+    marginLeft: 8,
+  },
+  requirementMet: {
+    color: COLORS.primary,
+    fontWeight: "500",
+  },
+  // Add to your existing profileStyles
+dangerSection: {
+  backgroundColor: COLORS.white,
+  marginHorizontal: 20,
+  
+  marginTop:20,
+  borderRadius: 16,
+  padding: 20,
+  shadowColor: COLORS.shadow,
+  shadowOffset: {
+    width: 0,
+    height: 4,
+  },
+  shadowOpacity: 0.1,
+  shadowRadius: 8,
+  elevation: 4,
+  borderWidth: 1,
+  borderColor: "#FF3B30" + "30",
+},
+dangerTitle: {
+  fontSize: 18,
+  fontWeight: "700",
+  color: "#FF3B30",
+},
+deleteAccountButton: {
+  flexDirection: "row",
+  alignItems: "center",
+  justifyContent: "center",
+  paddingVertical: 16,
+  borderRadius: 12,
+  borderWidth: 1,
+  borderColor: "#FF3B30" + "40",
+  backgroundColor: "#FF3B30" + "10",
+},
+deleteAccountText: {
+  fontSize: 16,
+  fontWeight: "600",
+  color: "#FF3B30",
+  marginLeft: 8,
+},
+deleteConfirmation: {
+  gap: 16,
+},
+deleteWarning: {
+  fontSize: 14,
+  color: "#FF3B30",
+  fontWeight: "500",
+  lineHeight: 20,
+  textAlign: "center",
+  padding: 12,
+  backgroundColor: "#FF3B30" + "10",
+  borderRadius: 8,
+  borderLeftWidth: 4,
+  borderLeftColor: "#FF3B30",
+},
+deleteActions: {
+  flexDirection: "row",
+  gap: 12,
+  marginTop: 8,
+},
+cancelDeleteButton: {
+  flex: 1,
+  paddingVertical: 14,
+  borderRadius: 12,
+  borderWidth: 1,
+  borderColor: COLORS.border,
+  alignItems: "center",
+  backgroundColor: COLORS.background,
+},
+cancelDeleteText: {
+  fontSize: 16,
+  fontWeight: "600",
+  color: COLORS.text,
+},
+confirmDeleteButton: {
+  flex: 2,
+  paddingVertical: 14,
+  borderRadius: 12,
+  alignItems: "center",
+  backgroundColor: "#FF3B30",
+},
+confirmDeleteButtonDisabled: {
+  backgroundColor: "#FF3B30" + "60",
+},
+confirmDeleteText: {
+  fontSize: 16,
+  fontWeight: "600",
+  color: COLORS.white,
+},
+// Add these styles to your existing profileStyles object:
+
+loadingContainer: {
+  flex: 1,
+  justifyContent: 'center',
+  alignItems: 'center',
+  backgroundColor: COLORS.background,
+},
+
+loadingText: {
+  marginTop: 16,
+  fontSize: 16,
+  color: COLORS.textLight,
+},
+
+saveButtonDisabled: {
+  opacity: 0.6,
+},
+
+confirmDeleteButtonDisabled: {
+  opacity: 0.6,
+},
+});
