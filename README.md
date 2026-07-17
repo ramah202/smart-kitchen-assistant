@@ -34,19 +34,19 @@ This project was developed as part of a university Software Engineering course p
 ---
 ## 📸 Application Screenshots
 
-### Login Screen
 <p align="center">
-  <img src="screenshots/login.jpg" alt="Login Screen" width="400" />
-</p>
-
-### Home Screen
-<p align="center">
-  <img src="screenshots/home.jpg" alt="Home Screen" width="400" />
-</p>
-
-### Search and Filtering
-<p align="center">
-  <img src="screenshots/filters.jpg" alt="Search Filters" width="400" />
+  <table>
+    <tr>
+      <td><img src="screenshots/login.jpg" alt="Login" width="200" /></td>
+      <td><img src="screenshots/home.jpg" alt="Home" width="200" /></td>
+      <td><img src="screenshots/filters.jpg" alt="Filters" width="200" /></td>
+    </tr>
+    <tr>
+      <td>Login Screen</td>
+      <td>Home Screen</td>
+      <td>Search & Filters</td>
+    </tr>
+  </table>
 </p>
 
 ### Recipe Details
