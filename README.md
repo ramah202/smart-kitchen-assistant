@@ -1,10 +1,10 @@
 # 🍳 Smart Kitchen Assistant
 
-Smart Kitchen Assistant is a cross-platform mobile application developed using **React Native (Expo)** that helps users discover recipes based on the ingredients and kitchen appliances they have available.
+Cross-platform recipe recommendation mobile application built with React Native (Expo).
 
-The application recommends suitable recipes according to the user's selected ingredients, available kitchen devices, meal preferences, and recipe categories, making cooking easier.
+Smart Kitchen Assistant helps users discover suitable recipes based on the ingredients and kitchen appliances they have available. The application recommends recipes according to selected ingredients, available devices, meal preferences, and recipe categories to make cooking easier and more personalized.
 
-This project was developed as part of a university **Software Engineering team project**.
+This project was developed as part of a university Software Engineering course project.
 
 ---
 
@@ -12,24 +12,87 @@ This project was developed as part of a university **Software Engineering team p
 
 ### 🍽️ Recipe Recommendation
 
-- Recommend recipes based on available ingredients
-- Recommend recipes according to available kitchen appliances
-- Filter recipes by meal type and categories
-- Search recipes by name
-- Browse recipes by category
-- Save favorite recipes
+- Recommend recipes based on available ingredients.
+- Recommend recipes according to available kitchen appliances.
+- Filter recipes by meal type and categories.
+- Search recipes by name.
+- Browse recipes by category.
+- Save favorite recipes.
 
 ### 📖 Recipe Details
 
-- View detailed recipe information
-- Step-by-step cooking instructions
-- Watch recipe preparation videos through YouTube
+- View detailed recipe information.
+- Follow step-by-step cooking instructions.
+- Watch recipe preparation videos through YouTube.
 
 ### 👤 User Features
 
-- User registration and login
-- User profile management
-- Personalized recipe experience
+- User registration and login.
+- User profile management.
+- Personalized recipe experience.
+
+---
+
+## 📸 Application Screenshots
+
+### Login Screen
+
+Secure user authentication and account access.
+
+![Login Screen](screenshots/login.jpg)
+
+---
+
+### Home Screen
+
+Browse recipes by category and discover recommended meals.
+
+![Home Screen](screenshots/home.jpg)
+
+---
+
+### Search and Filtering
+
+Filter recipes according to:
+
+- Meal type
+- Cooking time
+- Ingredients
+- Recipe categories
+
+![Search Filters](screenshots/filters.jpg)
+
+---
+
+### Recipe Details
+
+View detailed recipe information including preparation time, calories, ingredients, and cooking instructions.
+
+![Recipe Details](screenshots/recipe-details.jpg)
+
+---
+
+### Kitchen Appliances Management
+
+Select the kitchen appliances available at home to receive suitable recipe recommendations.
+
+![Kitchen Appliances](screenshots/devices.jpg)
+
+---
+
+### Favorites
+
+Save and manage your favorite recipes for quick access.
+
+![Favorites](screenshots/favorites.jpg)
+
+---
+
+### User Profile
+
+Manage personal information and account settings.
+
+![User Profile](screenshots/profile.jpg)
 
 ---
 
@@ -54,13 +117,9 @@ This project was developed as part of a university **Software Engineering team p
 
 ---
 
-## 👥 Team Project
+## 👩‍💻 My Contribution – Frontend Mobile Developer
 
-This application was developed as part of a university Software Engineering team project.
-
-### 👩‍💻 My Contribution – Frontend Mobile Developer
-
-I was responsible for developing the mobile application's frontend using **React Native (Expo)**.
+I was responsible for developing the frontend of the mobile application using React Native (Expo).
 
 My responsibilities included:
 
@@ -73,11 +132,15 @@ My responsibilities included:
 - Implementing favorites and user profile interfaces.
 - Improving the overall user experience.
 
-### 🤝 Other Team Contributions
+---
 
-- Backend API development
-- Database implementation
-- Admin Dashboard development and management
+## 🤝 Team Contributions
+
+Other team members were responsible for:
+
+- Backend API development.
+- Database implementation.
+- Admin Dashboard development and management.
 
 ---
 
@@ -123,34 +186,25 @@ Run the application:
 npx expo start
 ```
 
-Open the application using **Expo Go** or an Android/iOS emulator.
-
----
-
-## 📸 Screenshots
-
-Screenshots will be added soon.
-
+Open the application using Expo Go or an Android/iOS emulator.
 
 ---
 
 ## 🎯 Future Improvements
 
-- AI-powered personalized recipe recommendations
-- Pantry and ingredient inventory management
-- Meal planning
-- Shopping list generation
-- Multi-language support
+- AI-powered personalized recipe recommendations.
+- Pantry and ingredient inventory management.
+- Meal planning.
+- Shopping list generation.
+- Multi-language support.
 
 ---
 
 ## 📖 Project Information
 
-**Project Type:** University Software Engineering Project
-
-**Platform:** Cross-platform Mobile Application
-
-**Framework:** React Native (Expo)
+- Project Type: University Software Engineering Course Project
+- Platform: Cross-platform Mobile Application
+- Framework: React Native (Expo)
 
 ---
 
@@ -166,4 +220,4 @@ This project was developed for educational purposes as part of a university Soft
 
 Software Engineering Graduate
 
-Interested in Full-Stack Development, Mobile Application Development, and User-Centered Software Solutions.
+Interested in Frontend Development, Mobile Application Development, and Full-Stack Development.
