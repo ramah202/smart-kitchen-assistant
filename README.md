@@ -32,68 +32,29 @@ This project was developed as part of a university Software Engineering course p
 - Personalized recipe experience.
 
 ---
-
 ## 📸 Application Screenshots
 
-### Login Screen
+### Authentication & Home
 
-Secure user authentication and account access.
+<p align="center">
+  <img src="screenshots/login.jpg" width="30%">
+  <img src="screenshots/home.jpg" width="30%">
+</p>
 
-![Login Screen](screenshots/login.jpg)
+### Recipe Features
 
----
+<p align="center">
+  <img src="screenshots/filters.jpg" width="30%">
+  <img src="screenshots/recipe-details.jpg" width="30%">
+  <img src="screenshots/favorites.jpg" width="30%">
+</p>
 
-### Home Screen
+### User Features
 
-Browse recipes by category and discover recommended meals.
-
-![Home Screen](screenshots/home.jpg)
-
----
-
-### Search and Filtering
-
-Filter recipes according to:
-
-- Meal type
-- Cooking time
-- Ingredients
-- Recipe categories
-
-![Search Filters](screenshots/filters.jpg)
-
----
-
-### Recipe Details
-
-View detailed recipe information including preparation time, calories, ingredients, and cooking instructions.
-
-![Recipe Details](screenshots/recipe-details.jpg)
-
----
-
-### Kitchen Appliances Management
-
-Select the kitchen appliances available at home to receive suitable recipe recommendations.
-
-![Kitchen Appliances](screenshots/devices.jpg)
-
----
-
-### Favorites
-
-Save and manage your favorite recipes for quick access.
-
-![Favorites](screenshots/favorites.jpg)
-
----
-
-### User Profile
-
-Manage personal information and account settings.
-
-![User Profile](screenshots/profile.jpg)
-
+<p align="center">
+  <img src="screenshots/devices.jpg" width="30%">
+  <img src="screenshots/profile.jpg" width="30%">
+</p>
 ---
 
 ## 🛠️ Technologies Used
