@@ -34,26 +34,39 @@ This project was developed as part of a university Software Engineering course p
 ---
 ## 📸 Application Screenshots
 
-### Authentication & Home
-
+### Login Screen
 <p align="center">
-  <img src="screenshots/login.jpg" width="30%">
-  <img src="screenshots/home.jpg" width="30%">
+  <img src="screenshots/login.jpg" alt="Login Screen" width="400" />
 </p>
 
-### Recipe Features
-
+### Home Screen
 <p align="center">
-  <img src="screenshots/filters.jpg" width="30%">
-  <img src="screenshots/recipe-details.jpg" width="30%">
-  <img src="screenshots/favorites.jpg" width="30%">
+  <img src="screenshots/home.jpg" alt="Home Screen" width="400" />
 </p>
 
-### User Features
-
+### Search and Filtering
 <p align="center">
-  <img src="screenshots/devices.jpg" width="30%">
-  <img src="screenshots/profile.jpg" width="30%">
+  <img src="screenshots/filters.jpg" alt="Search Filters" width="400" />
+</p>
+
+### Recipe Details
+<p align="center">
+  <img src="screenshots/recipe-details.jpg" alt="Recipe Details" width="400" />
+</p>
+
+### Kitchen Appliances Management
+<p align="center">
+  <img src="screenshots/devices.jpg" alt="Kitchen Appliances" width="400" />
+</p>
+
+### Favorites
+<p align="center">
+  <img src="screenshots/favorites.jpg" alt="Favorites" width="400" />
+</p>
+
+### User Profile
+<p align="center">
+  <img src="screenshots/profile.jpg" alt="User Profile" width="400" />
 </p>
 ---
 
