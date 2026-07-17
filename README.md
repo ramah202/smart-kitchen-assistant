@@ -32,51 +32,64 @@ This project was developed as part of a university Software Engineering course p
 - Personalized recipe experience.
 
 ---
-## 📸 Application Screenshots<p align="center">
+## 📸 Application Screenshots
+
+<div align="center">
+  <h3>🖼️ Screenshot Gallery</h3>
+  
   <table>
     <tr>
-      <td align="center">
-        <img src="screenshots/login.jpg" alt="Login Screen" width="200" />
+      <td align="center" style="padding: 10px; border: 1px solid #eee; border-radius: 8px;">
+        <img src="screenshots/login.jpg" alt="Login Screen" width="220" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
         <br />
-        <strong>🔐 Login</strong>
+        <b>🔐 Login</b>
+        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666;">Secure authentication</p>
       </td>
-      <td align="center">
-        <img src="screenshots/home.jpg" alt="Home Screen" width="200" />
+      <td align="center" style="padding: 10px; border: 1px solid #eee; border-radius: 8px;">
+        <img src="screenshots/home.jpg" alt="Home Screen" width="220" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
         <br />
-        <strong>🏠 Home</strong>
-      </td>
-      <td align="center">
-        <img src="screenshots/filters.jpg" alt="Search Filters" width="200" />
-        <br />
-        <strong>🔍 Filters</strong>
+        <b>🏠 Home</b>
+        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666;">Recipe discovery</p>
       </td>
     </tr>
     <tr>
-      <td align="center">
-        <img src="screenshots/recipe-details.jpg" alt="Recipe Details" width="200" />
+      <td align="center" style="padding: 10px; border: 1px solid #eee; border-radius: 8px;">
+        <img src="screenshots/filters.jpg" alt="Search Filters" width="220" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
         <br />
-        <strong>📖 Details</strong>
+        <b>🔍 Filters</b>
+        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666;">Advanced search</p>
       </td>
-      <td align="center">
-        <img src="screenshots/devices.jpg" alt="Kitchen Appliances" width="200" />
+      <td align="center" style="padding: 10px; border: 1px solid #eee; border-radius: 8px;">
+        <img src="screenshots/recipe-details.jpg" alt="Recipe Details" width="220" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
         <br />
-        <strong>🔌 Devices</strong>
-      </td>
-      <td align="center">
-        <img src="screenshots/favorites.jpg" alt="Favorites" width="200" />
-        <br />
-        <strong>⭐ Favorites</strong>
+        <b>📖 Details</b>
+        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666;">Instructions & ingredients</p>
       </td>
     </tr>
     <tr>
-      <td align="center" colspan="3">
-        <img src="screenshots/profile.jpg" alt="User Profile" width="200" />
+      <td align="center" style="padding: 10px; border: 1px solid #eee; border-radius: 8px;">
+        <img src="screenshots/devices.jpg" alt="Kitchen Appliances" width="220" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
         <br />
-        <strong>👤 Profile</strong>
+        <b>🔌 Devices</b>
+        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666;">Smart device selection</p>
+      </td>
+      <td align="center" style="padding: 10px; border: 1px solid #eee; border-radius: 8px;">
+        <img src="screenshots/favorites.jpg" alt="Favorites" width="220" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+        <br />
+        <b>⭐ Favorites</b>
+        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666;">Saved recipes</p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2" style="padding: 10px; border: 1px solid #eee; border-radius: 8px;">
+        <img src="screenshots/profile.jpg" alt="User Profile" width="220" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+        <br />
+        <b>👤 Profile</b>
+        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666;">Account management</p>
       </td>
     </tr>
   </table>
-</p>
+</div>
 ---
 
 ## 🛠️ Technologies Used
