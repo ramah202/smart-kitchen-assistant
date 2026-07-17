@@ -32,64 +32,47 @@ This project was developed as part of a university Software Engineering course p
 - Personalized recipe experience.
 
 ---
-## 📸 Application Screenshots
-<p align="center">
+## 📸 Application Screenshots<p align="center">
   <table>
     <tr>
       <td align="center">
-        <img src="screenshots/login.jpg" alt="Login Screen" width="250" />
+        <img src="screenshots/login.jpg" alt="Login Screen" width="200" />
         <br />
-        <strong>Login Screen</strong>
-        <br />
-        <em>Secure user authentication</em>
+        <strong>🔐 Login</strong>
       </td>
       <td align="center">
-        <img src="screenshots/home.jpg" alt="Home Screen" width="250" />
+        <img src="screenshots/home.jpg" alt="Home Screen" width="200" />
         <br />
-        <strong>Home Screen</strong>
+        <strong>🏠 Home</strong>
+      </td>
+      <td align="center">
+        <img src="screenshots/filters.jpg" alt="Search Filters" width="200" />
         <br />
-        <em>Browse recipes by category</em>
+        <strong>🔍 Filters</strong>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <img src="screenshots/filters.jpg" alt="Search Filters" width="250" />
+        <img src="screenshots/recipe-details.jpg" alt="Recipe Details" width="200" />
         <br />
-        <strong>Search & Filtering</strong>
-        <br />
-        <em>Filter by meal type, time & ingredients</em>
+        <strong>📖 Details</strong>
       </td>
       <td align="center">
-        <img src="screenshots/recipe-details.jpg" alt="Recipe Details" width="250" />
+        <img src="screenshots/devices.jpg" alt="Kitchen Appliances" width="200" />
         <br />
-        <strong>Recipe Details</strong>
+        <strong>🔌 Devices</strong>
+      </td>
+      <td align="center">
+        <img src="screenshots/favorites.jpg" alt="Favorites" width="200" />
         <br />
-        <em>View instructions and ingredients</em>
+        <strong>⭐ Favorites</strong>
       </td>
     </tr>
     <tr>
-      <td align="center">
-        <img src="screenshots/devices.jpg" alt="Kitchen Appliances" width="250" />
+      <td align="center" colspan="3">
+        <img src="screenshots/profile.jpg" alt="User Profile" width="200" />
         <br />
-        <strong>Kitchen Appliances</strong>
-        <br />
-        <em>Select available devices</em>
-      </td>
-      <td align="center">
-        <img src="screenshots/favorites.jpg" alt="Favorites" width="250" />
-        <br />
-        <strong>Favorites</strong>
-        <br />
-        <em>Save and manage recipes</em>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" colspan="2">
-        <img src="screenshots/profile.jpg" alt="User Profile" width="250" />
-        <br />
-        <strong>User Profile</strong>
-        <br />
-        <em>Manage personal information</em>
+        <strong>👤 Profile</strong>
       </td>
     </tr>
   </table>
