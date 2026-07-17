@@ -33,63 +33,51 @@ This project was developed as part of a university Software Engineering course p
 
 ---
 ## 📸 Application Screenshots
-
-<div align="center">
-  <h3>🖼️ Screenshot Gallery</h3>
-  
+<p align="center">
   <table>
     <tr>
-      <td align="center" style="padding: 10px; border: 1px solid #eee; border-radius: 8px;">
-        <img src="screenshots/login.jpg" alt="Login Screen" width="220" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+      <td align="center">
+        <img src="screenshots/login.jpg" alt="Login Screen" width="200" />
         <br />
-        <b>🔐 Login</b>
-        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666;">Secure authentication</p>
+        <strong>🔐 Login</strong>
       </td>
-      <td align="center" style="padding: 10px; border: 1px solid #eee; border-radius: 8px;">
-        <img src="screenshots/home.jpg" alt="Home Screen" width="220" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+      <td align="center">
+        <img src="screenshots/home.jpg" alt="Home Screen" width="200" />
         <br />
-        <b>🏠 Home</b>
-        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666;">Recipe discovery</p>
+        <strong>🏠 Home</strong>
       </td>
-    </tr>
-    <tr>
-      <td align="center" style="padding: 10px; border: 1px solid #eee; border-radius: 8px;">
-        <img src="screenshots/filters.jpg" alt="Search Filters" width="220" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+      <td align="center">
+        <img src="screenshots/filters.jpg" alt="Search Filters" width="200" />
         <br />
-        <b>🔍 Filters</b>
-        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666;">Advanced search</p>
-      </td>
-      <td align="center" style="padding: 10px; border: 1px solid #eee; border-radius: 8px;">
-        <img src="screenshots/recipe-details.jpg" alt="Recipe Details" width="220" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
-        <br />
-        <b>📖 Details</b>
-        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666;">Instructions & ingredients</p>
+        <strong>🔍 Filters</strong>
       </td>
     </tr>
     <tr>
-      <td align="center" style="padding: 10px; border: 1px solid #eee; border-radius: 8px;">
-        <img src="screenshots/devices.jpg" alt="Kitchen Appliances" width="220" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+      <td align="center">
+        <img src="screenshots/recipe-details.jpg" alt="Recipe Details" width="200" />
         <br />
-        <b>🔌 Devices</b>
-        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666;">Smart device selection</p>
+        <strong>📖 Details</strong>
       </td>
-      <td align="center" style="padding: 10px; border: 1px solid #eee; border-radius: 8px;">
-        <img src="screenshots/favorites.jpg" alt="Favorites" width="220" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+      <td align="center">
+        <img src="screenshots/devices.jpg" alt="Kitchen Appliances" width="200" />
         <br />
-        <b>⭐ Favorites</b>
-        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666;">Saved recipes</p>
+        <strong>🔌 Devices</strong>
+      </td>
+      <td align="center">
+        <img src="screenshots/favorites.jpg" alt="Favorites" width="200" />
+        <br />
+        <strong>⭐ Favorites</strong>
       </td>
     </tr>
     <tr>
-      <td align="center" colspan="2" style="padding: 10px; border: 1px solid #eee; border-radius: 8px;">
-        <img src="screenshots/profile.jpg" alt="User Profile" width="220" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+      <td align="center" colspan="3">
+        <img src="screenshots/profile.jpg" alt="User Profile" width="200" />
         <br />
-        <b>👤 Profile</b>
-        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666;">Account management</p>
+        <strong>👤 Profile</strong>
       </td>
     </tr>
   </table>
-</div>
+</p>
 ---
 
 ## 🛠️ Technologies Used
